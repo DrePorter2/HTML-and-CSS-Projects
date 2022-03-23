@@ -85,12 +85,12 @@ h1 {
     cursor: pointer;
 }
 
-@keyframes race (
-    0%, 100% (
+@keyframes race {
+    0%, 100% {
         transform: translateY(0px);
         background-image: url("..images/icons/icons.png")
-    )
-    50% (
+    }
+    50% {
         transform: translateY(330px);
-    )
-)
+    }
+}
